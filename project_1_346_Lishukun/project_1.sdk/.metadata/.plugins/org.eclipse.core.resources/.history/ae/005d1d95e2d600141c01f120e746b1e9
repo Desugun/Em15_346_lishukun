@@ -81,7 +81,7 @@ int main()
         test_memory_range(&memory_ranges[i]);
     }
 
-    print("--Memory Test Application Complete lishukun346--\n\r");
+    print("--Memory Test Application Complete--\n\r");
 
     return 0;
 }

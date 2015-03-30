@@ -96,3 +96,5 @@ Cannot Read from target
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 21:23:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:41:10 INFO  : Processing command line option -hwspec D:/study/embled/project_1/project_1.sdk/design_1_wrapper.hdf.
+21:41:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
