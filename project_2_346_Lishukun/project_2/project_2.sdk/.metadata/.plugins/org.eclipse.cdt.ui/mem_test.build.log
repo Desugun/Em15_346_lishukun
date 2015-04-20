@@ -1,0 +1,6 @@
+11:35:25 **** Build of configuration Debug for project mem_test ****
+make all 
+Cannot run program "make": Launching failed
+
+11:35:29 Build Finished (took 3s.790ms)
+
