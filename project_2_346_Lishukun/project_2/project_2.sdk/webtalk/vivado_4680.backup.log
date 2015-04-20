@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Apr 14 11:34:51 2015
+# Process ID: 5264
+# Log file: D:/study/embled/project_boss2/project_2/project_2.sdk/webtalk/vivado.log
+# Journal file: D:/study/embled/project_boss2/project_2/project_2.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------
+source sdk.tcl
+# webtalk_init -webtalk_dir D:\\study\\embled\\project_boss2\\project_2\\project_2.sdk\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "星期二 四月 14 11:34:39 2015" -context "software_version_and_target_device"
