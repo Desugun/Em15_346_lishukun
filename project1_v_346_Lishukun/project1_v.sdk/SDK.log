@@ -1,0 +1,127 @@
+15:34:13 INFO  : Processing command line option -hwspec E:/class/Project/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+18:14:55 INFO  : Processing command line option -hwspec E:/class/Project/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+18:14:55 INFO  : Checking for hwspec changes in the project systerm_wrapper_hw_platform_0.
+18:37:12 INFO  : ps7_init is completed.
+18:37:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:37:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:39:07 INFO  : ps7_init is completed.
+18:39:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:39:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:39:54 INFO  : ps7_init is completed.
+18:39:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:40:31 INFO  : ps7_init is completed.
+18:40:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:41:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:41:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:43:09 INFO  : ps7_init is completed.
+18:43:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:43:22 INFO  : ps7_init is completed.
+18:43:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:43:23 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access JTAG-DP: invalid ACK value (0x06, expected=0x02)
+    Error Address = 0x00003000, Size = 0x00000340
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+18:45:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:47:48 INFO  : Processing command line option -hwspec E:/class/Project/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+18:47:50 INFO  : Checking for hwspec changes in the project systerm_wrapper_hw_platform_0.
+18:51:08 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+18:51:38 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1230)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:411)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:513)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+18:51:52 INFO  : ps7_init is completed.
+18:51:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:52:22 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+18:52:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:54:10 INFO  : Processing command line option -hwspec D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:56:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:26 INFO  : Processing command line option -hwspec D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+21:57:27 INFO  : Checking for hwspec changes in the project systerm_wrapper_hw_platform_1.
+21:57:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1429538230090,  Project:1428392037668
+21:57:28 INFO  : The hardware specification for project 'systerm_wrapper_hw_platform_1' is different from D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf.
+21:57:28 INFO  : Copied contents of D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf into \systerm_wrapper_hw_platform_1\system.hdf.
+21:57:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:57:28 INFO  : Clearing existing target manager status.
+21:57:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:57:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name E:\class\Project\project1_v\project1_v.sdk\mem_test_v_bsp\system.mss
+21:58:34 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
