@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Apr 20 21:51:24 2015
+# Process ID: 7556
+# Log file: D:/study/embled/project1_v/vivado.log
+# Journal file: D:/study/embled/project1_v\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\study\embled\project1_v\project1_v.xpr}
+launch_sdk -workspace D:/study/embled/project1_v/project1_v.sdk -hwspec D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf
+write_hwdef  -file D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf
+launch_sdk -workspace D:/study/embled/project1_v/project1_v.sdk -hwspec D:/study/embled/project1_v/project1_v.sdk/systerm_wrapper.hdf
+close_project
+open_project D:/study/embled/project_boss2/project_2/project_2.xpr
+reset_run synth_2 -from_step synth_design
+launch_runs synth_2 -next_step 
+open_run synth_2 -name netlist_1
+close_project
+open_project D:/study/embled/project_boss/project_1.xpr
+set_property target_language Verilog [current_project]
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+write_hwdef  -file D:/study/embled/project_boss/project_1.sdk/design_1_wrapper.hdf
+launch_sdk -workspace D:/study/embled/project_boss/project_1.sdk -hwspec D:/study/embled/project_boss/project_1.sdk/design_1_wrapper.hdf
