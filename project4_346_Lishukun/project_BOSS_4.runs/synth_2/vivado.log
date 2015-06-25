@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Jun 20 16:43:15 2015
+# Process ID: 6836
+# Log file: D:/study/embled/project_BOSS_4/project_BOSS_4.runs/synth_2/vivado.log
+# Journal file: D:/study/embled/project_BOSS_4/project_BOSS_4.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint {D:\study\embled\project_BOSS_4\project_BOSS_4.runs\synth_2\design_1_wrapper.dcp}
+Command: open_checkpoint {D:\study\embled\project_BOSS_4\project_BOSS_4.runs\synth_2\design_1_wrapper.dcp}
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from D:/tools/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from D:/tools/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from D:/tools/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from D:/tools/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from D:/tools/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from D:/tools/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 932637
+open_checkpoint: Time (s): cpu = 00:00:55 ; elapsed = 00:00:33 . Memory (MB): peak = 1173.559 ; gain = 361.391
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 20 16:44:24 2015...

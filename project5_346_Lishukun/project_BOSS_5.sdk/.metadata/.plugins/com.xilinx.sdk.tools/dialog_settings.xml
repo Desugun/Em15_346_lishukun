@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="design_1_wrapper_hw_platform_3-fsblFile"/>
+	<item value="" key="design_1_wrapper_hw_platform_3-offSet"/>
+	<item value="" key="design_1_wrapper_hw_platform_3-imgFile"/>
+	<item value="Local" key="design_1_wrapper_hw_platform_3-target"/>
+	<item value="false" key="design_1_wrapper_hw_platform_3-verifyFlash"/>
+	<item value="false" key="design_1_wrapper_hw_platform_3-blankCheck"/>
+	<item value="qspi_single" key="design_1_wrapper_hw_platform_3-flashType"/>
+</section>
