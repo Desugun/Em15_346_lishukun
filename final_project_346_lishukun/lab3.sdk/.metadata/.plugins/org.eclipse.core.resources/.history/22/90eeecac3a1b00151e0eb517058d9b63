@@ -1,0 +1,38 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xutil.h"
+  
+
+//====================================================
+
+int main (void) 
+{
+
+    XGpio out, push,push1;
+	int i, psb_check,off_check, out_check,count=0;
+	
+    xil_printf("-- Start of the Program --\r\n");
+ 
+    XGpio_Initialize(&out, XPAR_SW_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&out, 4, 0xffffffff);
+
+	XGpio_Initialize(&push, XPAR_BTNS_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&push, 4, 0xffffffff);
+
+	
+
+	while (1)
+	{
+	  psb_check = XGpio_DiscreteRead(&push, 1);
+	 // off_check = XGpio_DiscreteRead(&push1, 2);
+	 if(psb_check == 1)
+		 XGpio_DiscreteWrite(&out, 1, 2);
+	 else// if(off_check == 1)
+		 XGpio_DiscreteWrite(&out, 1, 0);
+
+
+	  for (i=0; i<999999; i++);
+	}
+ 
+}
+ 
